@@ -9,7 +9,7 @@ import Divider from "@components/ui/divider";
 import DownloadApps from "@components/common/download-apps";
 import Support from "@components/common/support";
 import Instagram from "@components/common/instagram";
-import ProductsFlashSaleBlock from "@containers/product-flash-sale-block";
+// import ProductsFlashSaleBlock from "@containers/product-flash-sale-block";
 import ProductsFeatured from "@containers/products-featured";
 import BannerSliderBlock from "@containers/banner-slider-block";
 import ExclusiveBlock from "@containers/exclusive-block";
@@ -25,38 +25,38 @@ export default function Home() {
   return (
     <>
       <BannerBlock data={masonryBanner} />
-      <Container>
+      {/* <Container>
         <ProductsFlashSaleBlock date={"2025-12-01T01:02:03"} />
-      </Container>
-      <BannerSliderBlock />
+      </Container> */}
+      {/* <BannerSliderBlock /> */}
       <Container>
         <CategoryBlock
           sectionHeading="text-shop-by-category"
           type="rounded"
         />
-        <ProductsFeatured
+        {/* <ProductsFeatured
           sectionHeading="text-featured-products"
           limit={5}
-        />
+        /> */}
         <BannerCard
           key={`banner--key${banner[0].id}`}
           banner={banner[0]}
           href={`${ROUTES.COLLECTIONS}/${banner[0].slug}`}
           className="mb-12 lg:mb-14 xl:mb-16 pb-0.5 lg:pb-1 xl:pb-0"
         />
-        <BrandGridBlock sectionHeading="text-top-brands" />
-        <BannerCard
+        {/* <BrandGridBlock sectionHeading="text-top-brands" /> */}
+        {/* <BannerCard
           key={`banner--key${banner[1].id}`}
           banner={banner[1]}
           href={`${ROUTES.COLLECTIONS}/${banner[1].slug}`}
           className="mb-12 lg:mb-14 xl:mb-16 pb-0.5 lg:pb-1 xl:pb-0"
-        />
-        <BannerWithProducts
+        /> */}
+        {/* <BannerWithProducts
           sectionHeading="text-on-selling-products"
           categorySlug="/search"
-        />
+        /> */}
         <ExclusiveBlock />
-        <NewArrivalsProductFeed />
+        {/* <NewArrivalsProductFeed /> */}
         <DownloadApps />
         <Support />
         <Instagram />

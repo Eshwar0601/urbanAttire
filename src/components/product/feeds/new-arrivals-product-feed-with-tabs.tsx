@@ -14,7 +14,7 @@ const NewArrivalsProductFeedWithTabs: React.FC<any> = () => {
   return (
     <div className="mb-12 md:mb-14 xl:mb-16">
       <SectionHeader
-        sectionHeading="text-new-arrivals"
+        sectionHeading="New Arrivals"
         className="pb-0.5 mb-1 sm:mb-1.5 md:mb-2 lg:mb-3 2xl:mb-4 3xl:mb-5"
       />
 
