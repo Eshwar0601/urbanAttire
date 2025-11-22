@@ -10,6 +10,7 @@ const BannerBlock: React.FC<BannerProps> = ({
   data,
   className = "mb-12 md:mb-14 xl:mb-16 px-2.5",
 }) => {
+  var customRoutingSlugList  : any = ['flashSale', 'featuredProducts', 'newArrivals']
   return (
     <div
       className={`${className} grid grid-cols-2 sm:grid-cols-9 gap-2 md:gap-2.5 max-w-[1920px] mx-auto`}
@@ -18,7 +19,7 @@ const BannerBlock: React.FC<BannerProps> = ({
         <BannerCard
           key={`banner--key${banner.id}`}
           banner={banner}
-          href={`${ROUTES.COLLECTIONS}/${banner.slug}`}
+          href={customRoutingSlugList.includes(banner.slug) ? `/${banner.slug}` : `${ROUTES.COLLECTIONS}/${banner.slug}`}
           effectActive={true}
           variant="default"
           className={

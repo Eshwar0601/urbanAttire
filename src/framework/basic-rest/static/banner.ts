@@ -235,16 +235,52 @@ export const homeThreeMasonryBanner = [
   },
   {
     id: 2,
-    title: "New Sports",
+    title: "Kids",
     slug: "new-sports",
     image: {
       mobile: {
-        url: "/assets/images/banner/masonry/banner-mobile-2.jpg",
+        url: "/assets/images/banner/masonry/banner-8.jpg",
         width: 232,
         height: 232,
       },
       desktop: {
-        url: "/assets/images/banner/masonry/banner-2.jpg",
+        url: "/assets/images/banner/masonry/banner-8.jpg",
+        width: 425,
+        height: 425,
+      },
+    },
+    type: "small",
+  },
+  {
+    id: 2,
+    title: "featured products",
+    slug: "featuredProducts",
+    image: {
+      mobile: {
+        url: "/assets/images/banner/masonry/featured-products.png",
+        width: 232,
+        height: 232,
+      },
+      desktop: {
+        url: "/assets/images/banner/masonry/featured-products.png",
+        width: 425,
+        height: 425,
+      },
+    },
+    type: "small",
+  },
+  {
+    id: 2,
+    title: "Top Offers and Discounts",
+    slug: "flashSale",
+    image: {
+      mobile: {
+        url: "/assets/images/banner/masonry/top-offers-and-discounts.jpg",
+        width: 232,
+        height: 232,
+      },
+      desktop: {
+        url: "/assets/images/banner/masonry/top-offers-and-discounts.jpg",
         width: 425,
         height: 425,
       },
@@ -253,76 +289,41 @@ export const homeThreeMasonryBanner = [
   },
   {
     id: 3,
-    title: "Dress Women",
-    slug: "dress-women",
+    title: "New Arrivals",
+    slug: "newArrivals",
     image: {
       mobile: {
-        url: "/assets/images/banner/masonry/banner-mobile-3.jpg",
+        url: "/assets/images/banner/masonry/new-arivals.jpg",
         width: 232,
         height: 232,
       },
       desktop: {
-        url: "/assets/images/banner/masonry/banner-3.jpg",
+        url: "/assets/images/banner/masonry/new-arivals.jpg",
         width: 425,
         height: 425,
       },
     },
     type: "small",
   },
+  
   {
     id: 4,
-    title: "Exclusive Sunglasses",
-    slug: "exclusive-sunglasses",
+    title: "Summer Collection",
+    slug: "onSelling",
     image: {
       mobile: {
-        url: "/assets/images/banner/masonry/banner-mobile-4.jpg",
-        width: 232,
+        url: "/assets/images/banner/masonry/banner-11.jpg",
+       width: 470,
         height: 232,
       },
       desktop: {
-        url: "/assets/images/banner/masonry/banner-4.jpg",
-        width: 425,
-        height: 425,
-      },
-    },
-    type: "small",
-  },
-  {
-    id: 5,
-    title: "Product Coupons",
-    slug: "product-coupons",
-    image: {
-      mobile: {
-        url: "/assets/images/banner/masonry/banner-mobile-5.jpg",
-        width: 232,
-        height: 232,
-      },
-      desktop: {
-        url: "/assets/images/banner/masonry/banner-5.jpg",
-        width: 425,
-        height: 425,
-      },
-    },
-    type: "small",
-  },
-  {
-    id: 6,
-    title: "New Backpack",
-    slug: "new-backpack",
-    image: {
-      mobile: {
-        url: "/assets/images/banner/masonry/banner-mobile-6.jpg",
-        width: 470,
-        height: 232,
-      },
-      desktop: {
-        url: "/assets/images/banner/masonry/banner-6.jpg",
-        width: 1078,
+        url: "/assets/images/banner/masonry/banner-11.jpg",
+         width: 1078,
         height: 425,
       },
     },
     type: "medium",
-  },
+  }
 ];
 
 export const bannerGrid = [
