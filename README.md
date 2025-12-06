@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Fastest E-commerce template built with `React`, `NextJS`, `TypeScript`, `@tanstack/react-query` and `Tailwind CSS`. Its very easy to use, we used `@tanstack/react-query` for data fetching . You can setup your api endpoint's very easily and your frontend team will love using it.
+Your go-to destination for modern, trendy, and affordable urban fashion. Discover curated streetwear, fresh drops, and exclusive styles designed for everyday confidence. Shop effortlessly with fast delivery, secure checkout, and premium quality you can trust
 
 ## Requirements
 
