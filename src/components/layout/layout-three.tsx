@@ -21,16 +21,16 @@ export default function Layout({ children }: React.PropsWithChildren<{}>) {
 					},
 				]}
 				title="urbanattire React - React Next E-commerce Template"
-				description="Fastest E-commerce template built with React, NextJS, TypeScript, @tanstack/react-query and Tailwind CSS."
-				canonical="https://urbanattire.vercel.app/"
+				description="Your go-to destination for modern, trendy, and affordable urban fashion. Discover curated streetwear, fresh drops, and exclusive styles designed for everyday confidence. Shop effortlessly with fast delivery, secure checkout, and premium quality you can trust."
+				canonical="https://urbanattiree.netlify.app/"
 				openGraph={{
-					url: 'https://urbanattire.vercel.app',
+					url: 'https://urbanattiree.netlify.app/',
 					title: 'urbanattire React - React Next E-commerce Template',
 					description:
-						'Fastest E-commerce template built with React, NextJS, TypeScript, @tanstack/react-query and Tailwind CSS.',
+						'Your go-to destination for modern, trendy, and affordable urban fashion. Discover curated streetwear, fresh drops, and exclusive styles designed for everyday confidence. Shop effortlessly with fast delivery, secure checkout, and premium quality you can trust',
 					images: [
 						{
-							url: '/assets/images/og-image-01.png',
+							url: '/assets/images/urban-attire.jpg',
 							width: 800,
 							height: 600,
 							alt: 'Og Image Alt',

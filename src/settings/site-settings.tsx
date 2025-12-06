@@ -25,7 +25,7 @@ import { SneakerIcon } from '@components/icons/sneaker-icon';
 
 export const siteSettings = {
   name: 'urbanattire',
-  description: 'Fastest E-commerce template built with React, NextJS, TypeScript, @tanstack/react-query and Tailwind CSS.',
+  description: 'Your go-to destination for modern, trendy, and affordable urban fashion. Discover curated streetwear, fresh drops, and exclusive styles designed for everyday confidence. Shop effortlessly with fast delivery, secure checkout, and premium quality you can trust',
   author: {
     name: 'REDQ',
     websiteUrl: 'https://redq.io',
